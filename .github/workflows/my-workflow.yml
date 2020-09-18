@@ -18,5 +18,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v1
 
-      - name: hello-action
+      - name: "hello-action"
         uses: ./.github/actions/hello-world
+        with:
+#          first-greeting: "Learning Lab User"
+#          second-greeting: "Learning Lab Teacher"
+          third-greeting: "Janitor"
