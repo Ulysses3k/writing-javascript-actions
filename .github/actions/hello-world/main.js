@@ -4,8 +4,8 @@ const firstGreeting = core.getInput("first-greeting");
 const secondGreeting = core.getInput("second-greeting");
 const thirdGreeting = core.getInput("thrid-greeting");
 
-console.log(`Hello $(firstGreeting)`);
-console.log(`Hello $(secondGreeting)`);
+console.log(`Hello ${firstGreeting}`);
+console.log(`Hello ${secondGreeting}`);
 if (thirdGreeting) {
-  console.log("Hello World");
+  console.log(`Hello ${thirdGreeting}`);
 }
