@@ -24,4 +24,4 @@ jobs:
           first-greeting: "Learning Lab User"
           second-greeting: "Learning Lab Teacher"
           third-greeting: "Janitor"
-            required: true
+          third-greeting.required: true
