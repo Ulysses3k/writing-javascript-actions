@@ -22,5 +22,5 @@ jobs:
         uses: ./.github/actions/hello-world
         with:
           first-greeting: "Learning Lab User"
-          second-greetomg: "Learning Lab Teacher"
+          second-greeting: "Learning Lab Teacher"
           third-greeting: "Janitor"
